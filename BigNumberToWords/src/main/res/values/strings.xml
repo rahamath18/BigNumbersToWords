@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Big Number To Words</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_app">About This Application</string>
+    <string name="about_app_section">
+         <![CDATA[
+            <h2>Western & Indian Number Systems</h2><br>
+
+            <h4>Western Format Conversion</h4><br>
+            This app converts upto 10^305 into western words format.
+
+            <h4>Indian Format Conversion</h4><br>
+            This app converts upto 10^32 into indian words format. From 10^33 to 10^305 the words are reserved and given like AA,AB,AC...<br>
+            <br>
+            Courtesy thanks to: wikipedia and google
+         </p>
+         ]]>
+     </string>
+</resources>

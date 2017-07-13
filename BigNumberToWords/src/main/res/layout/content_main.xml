@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.math.bignumbertowords.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/bignumappbg">
+
+    <EditText
+        android:id="@+id/txtNumToConvert"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter a number..."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="68dp"
+        android:layout_height="58dp"
+        android:text="Clear"
+        tools:layout_editor_absoluteX="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumToConvert"/>
+
+    <Button
+        android:id="@+id/btnWestern"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:textAlignment="textStart"
+        android:text="WESTERN Format - Convert Number to Words"
+        tools:layout_editor_absoluteX="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnClear"/>
+
+    <Button
+        android:id="@+id/btnIndian"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:textAlignment="textStart"
+        android:text="INDIAN Format - Convert Number to Words"
+        tools:layout_editor_absoluteX="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnWestern"/>
+
+    <EditText
+        android:id="@+id/txtWordConverted"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Display conversion here..."
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnIndian"/>
+
+    <Button
+        android:id="@+id/btnCopyToClipBoard"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:text="Copy to clipboard"
+        tools:layout_editor_absoluteX="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtWordConverted"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btnCloseApp"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:text="Close This App"
+        tools:layout_editor_absoluteX="180dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnCopyToClipBoard"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+</android.support.constraint.ConstraintLayout>

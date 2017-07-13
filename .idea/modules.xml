@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigNumberToWords/BigNumberToWords.iml" filepath="$PROJECT_DIR$/BigNumberToWords/BigNumberToWords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigNumbersToWords.iml" filepath="$PROJECT_DIR$/BigNumbersToWords.iml" />
+    </modules>
+  </component>
+</project>
